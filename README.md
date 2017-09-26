@@ -55,6 +55,38 @@
    6.2 Se crea un ciclo for donde K iniciara de 1 hasta que sea menor al largo solicitado por el usuario e incrementara de 2 en 2.
    6.3 Dentro del ciclo se iran sumando los valores dentro de la variable sumaI.
    6.4 Se imprime la variable sumaI que contiene la suma de todos los elementos pares del vector.
-  
 
 ![](Tarea4Fotos/sumap.png)
+
+7. Suma elementos impares del vector. 
+
+   7.1 Se declara la variable sumaP.
+   7.2 Se crea un ciclo for donde l iniciara de 0 hasta que sea menor al largo solicitado por el usuario e incrementara de 2 en 2.
+   7.3 Dentro del ciclo se iran sumando los valores dentro de la variable sumaP.
+   7.4 Se imprime la variable sumaP que contiene la suma de todos los elementos impares del vector.
+
+![](Tarea4Fotos/sumai.png)
+
+8. Orden de valores del vector. 
+
+   6.1 Se declara la variable aux.
+   6.2 Se crea un ciclo for donde i iniciara de 0 hasta que sea menor al largo solicitado por el usuario e incrementara de 1 en 1.
+   6.3 Dentro del ciclo se crea otro for donde j iniciara de 0 hasta que sea menor al largo - 1 solicitado por el usuario e incrementara de 1 en 1.
+   6.4 Dentro del ciclo se crea un if con la sentencia *(sum+j) > *(sum+j+1) que es la que hara que se vaya ordenando los valores. 
+   6.5 Si se cumple la sentencia if, dentro del mismo se haran los cambios dentro de los elementos con la ayuda de la variable aux.
+
+![](Tarea4Fotos/ordenar.png)
+
+9. Impresión Vector.
+
+   9.1 Se crea un ciclo for donde i iniciara de 0 hasta que sea menor al largo solicitado por el usuario.
+   9.2 Dentro del for se imprimi el vector ya ordenado que  previamente habia sido ingresado por el usuario.
+   
+![](Tarea4Fotos/mostrar2.png)
+
+9. Main.
+
+   9.1 Se crea el main y dentro se llama a todos los metodos realizados anteriormente.
+   9.2 Ya una vez finalizado todo el proceso, se agrega un delete para liberar los bytes utilizados en el arreglo dinamico. 
+   
+![](Tarea4Fotos/main.png)
